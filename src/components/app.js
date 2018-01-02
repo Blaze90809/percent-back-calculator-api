@@ -125,7 +125,7 @@ export default class App extends React.Component {
         this.setState({
             percentBack: calcPercentBack
         });
-       
+
         let randomNumber = Math.floor(Math.random() * 100);
         const racesArray = {
             "id": randomNumber,
@@ -136,15 +136,15 @@ export default class App extends React.Component {
         }
         const request = new Request(`${url}`, {
             method: `Post`,
-            headers: new Headers({'Content-Type': 'application/json'}),
+            headers: new Headers({ 'Content-Type': 'application/json' }),
             body: JSON.stringify(racesArray)
         });
         fetch(request)
-        .then(response => {
-            console.log(`Post was successful: ${response}`);
-            this.getRaces();
-        })
-        .catch(error => console.log(`fetch error adding races: ${error}`))
+            .then(response => {
+                console.log(`Post was successful: ${response}`);
+                this.getRaces();
+            })
+            .catch(error => console.log(`fetch error adding races: ${error}`))
     }//End of post route
 
     render() {
@@ -175,20 +175,20 @@ export default class App extends React.Component {
                 <p>Race Distance: </p> {this.state.raceDistance}
                 <p>Percent Back: </p> {this.state.percentBack} */}
                 <table>
-                    <tr>
-                        <th>Race Name</th>
-                        <th>Race Date</th>
-                        <th>Race Distance</th>
-                        <th>Percent Back</th>
-                    </tr>
                     <tbody>
+                        <tr>
+                            <th>Race Name</th>
+                            <th>Race Date</th>
+                            <th>Race Distance</th>
+                            <th>Percent Back</th>
+                        </tr>
                         {this.state.races.map(races => (
                             <tr key={races.id}>
-                                <td>{races.raceName} </td> <td>{races.raceDate}</td> <td>{races.raceDistance}</td> <td>{races.percentBack}</td>
+                                <td>{races.raceName}</td><td>{races.raceDate}</td><td>{races.raceDistance}</td><td>{races.percentBack}</td>
                             </tr>
-
                         ))}
                     </tbody>
+
                 </table>
             </div>
         );
