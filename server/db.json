@@ -1,47 +1,47 @@
 {
   "racesArray": [
     {
-        "id": 1,
-        "raceName": "Winter Warm-Up",
-        "raceDate": "2017-12-23",
-        "raceDistance": "10",
-        "percentBack": "24.60"
-      },
-      {
-        "id": 2,
-        "raceName": "Pepsi Challenge",
-        "raceDate": "2017-03-04",
-        "raceDistance": 48,
-        "percentBack": 33.98
-      },
-      {
-        "id": 3,
-        "raceName": "Hamsterbeiner",
-        "raceDate": "2017-02-26",
-        "raceDistance": 25,
-        "percentBack": 19.93
-      },
-      {
-        "id": 4,
-        "raceName": "City of Lakes Loppet Skate",
-        "raceDate": "2017-02-05",
-        "raceDistance": 30,
-        "percentBack": 21.65
-      },
-      {
-        "id": 5,
-        "raceName": "City of Lakes Loppet Classic",
-        "raceDate": "2017-02-04",
-        "raceDistance": 30,
-        "percentBack": 35.41
-      },
-      {
-        "id": 6,
-        "raceName": "Three Rivers Ski Rennet",
-        "raceDate": "2017-01-21",
-        "raceDistance": 20,
-        "percentBack": 23.21
-      },
+      "id": 1,
+      "raceName": "Winter Warm-Up",
+      "raceDate": "2017-12-23",
+      "raceDistance": "10",
+      "percentBack": "24.60"
+    },
+    {
+      "id": 2,
+      "raceName": "Pepsi Challenge",
+      "raceDate": "2017-03-04",
+      "raceDistance": 48,
+      "percentBack": 33.98
+    },
+    {
+      "id": 3,
+      "raceName": "Hamsterbeiner",
+      "raceDate": "2017-02-26",
+      "raceDistance": 25,
+      "percentBack": 19.93
+    },
+    {
+      "id": 4,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2017-02-05",
+      "raceDistance": 30,
+      "percentBack": 21.65
+    },
+    {
+      "id": 5,
+      "raceName": "City of Lakes Loppet Classic",
+      "raceDate": "2017-02-04",
+      "raceDistance": 30,
+      "percentBack": 35.41
+    },
+    {
+      "id": 6,
+      "raceName": "Three Rivers Ski Rennet",
+      "raceDate": "2017-01-21",
+      "raceDistance": 20,
+      "percentBack": 23.21
+    },
     {
       "id": 7,
       "raceName": "Pre-Loppet",
@@ -50,12 +50,12 @@
       "percentBack": 23.68
     },
     {
-        "id": 8,
-        "raceName": "Skinny Santa Solstice",
-        "raceDate": "2016-12-17",
-        "raceDistance": 10,
-        "percentBack": 40.23
-      },
+      "id": 8,
+      "raceName": "Skinny Santa Solstice",
+      "raceDate": "2016-12-17",
+      "raceDistance": 10,
+      "percentBack": 40.23
+    },
     {
       "id": 9,
       "raceName": "Birkie",
@@ -78,12 +78,12 @@
       "percentBack": "29.53"
     },
     {
-        "id": 12,
-        "raceName": "Hyland Ski Rennet Classic",
-        "raceDate": "2016-01-23",
-        "raceDistance": "20",
-        "percentBack": "20.21"
-      },
+      "id": 12,
+      "raceName": "Hyland Ski Rennet Classic",
+      "raceDate": "2016-01-23",
+      "raceDistance": "20",
+      "percentBack": "20.21"
+    },
     {
       "id": 13,
       "raceName": "Battle Creek Open",
@@ -113,12 +113,12 @@
       "percentBack": "20.16"
     },
     {
-        "id": 17,
-        "raceName": "City of Lakes Loppet Skate",
-        "raceDate": "2014-02-02",
-        "raceDistance": "42",
-        "percentBack": "41.56"
-      },
+      "id": 17,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2014-02-02",
+      "raceDistance": "42",
+      "percentBack": "41.56"
+    },
     {
       "id": 18,
       "raceName": "City of Lakes Loppet Classic",

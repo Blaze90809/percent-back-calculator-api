@@ -126,9 +126,9 @@ export default class App extends React.Component {
             percentBack: calcPercentBack
         });
 
-        let randomNumber = Math.floor(Math.random() * 100);
+        // let randomNumber = Math.floor(Math.random() * 100);
         const racesArray = {
-            "id": randomNumber,
+            "id": (this.state.races.length + 1),
             "raceName": this.state.raceName,
             "raceDate": this.state.raceDate,
             "raceDistance": this.state.raceDistance,
