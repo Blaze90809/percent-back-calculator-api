@@ -50,11 +50,95 @@
       "percentBack": 33.98
     },
     {
-      "id": 40,
+      "id": 95,
       "raceName": "Winter Warm-Up",
       "raceDate": "2017-12-23",
       "raceDistance": "10",
-      "percentBack": 24.59853499280767
+      "percentBack": "24.60"
+    },
+    {
+      "id": 40,
+      "raceName": "Birkie",
+      "raceDate": "2016-02-20",
+      "raceDistance": "51",
+      "percentBack": "50.02"
+    },
+    {
+      "id": 41,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2016-02-07",
+      "raceDistance": "42",
+      "percentBack": "25.92"
+    },
+    {
+      "id": 85,
+      "raceName": "City of Lakes Loppet Classic",
+      "raceDate": "2016-02-07",
+      "raceDistance": "42",
+      "percentBack": "29.53"
+    },
+    {
+      "id": 10,
+      "raceName": "Battle Creek Open",
+      "raceDate": "2016-01-02",
+      "raceDistance": "15",
+      "percentBack": "18.74"
+    },
+    {
+      "id": 25,
+      "raceName": "Hyland Ski Rennet Classic",
+      "raceDate": "2016-01-23",
+      "raceDistance": "20",
+      "percentBack": "20.21"
+    },
+    {
+      "id": 37,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2015-02-01",
+      "raceDistance": "13.1",
+      "percentBack": "26.18"
+    },
+    {
+      "id": 58,
+      "raceName": "City of Lakes Loppet Classic",
+      "raceDate": "2015-01-31",
+      "raceDistance": "16.5",
+      "percentBack": "38.59"
+    },
+    {
+      "id": 13,
+      "raceName": "Ahvo Classic",
+      "raceDate": "2015-01-01",
+      "raceDistance": "12",
+      "percentBack": "20.16"
+    },
+    {
+      "id": 34,
+      "raceName": "City of Lakes Loppet Classic",
+      "raceDate": "2014-02-01",
+      "raceDistance": "42",
+      "percentBack": "34.41"
+    },
+    {
+      "id": 42,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2014-02-02",
+      "raceDistance": "42",
+      "percentBack": "41.56"
+    },
+    {
+      "id": 87,
+      "raceName": "Pre-Loppet",
+      "raceDate": "2014-01-11",
+      "raceDistance": "17",
+      "percentBack": "23.47"
+    },
+    {
+      "id": 75,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2013-02-03",
+      "raceDistance": "33",
+      "percentBack": "41.76"
     }
   ]
 }

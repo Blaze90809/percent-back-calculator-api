@@ -120,7 +120,7 @@ export default class App extends React.Component {
         // console.log('Your minutes ' + youTime)
         let difference = (youTime - firstPlaceTime);
         // console.log('Difference ' + difference);
-        let calcPercentBack = ((difference / firstPlaceTime) * 100);
+        let calcPercentBack = ((difference / firstPlaceTime) * 100).toFixed(2);
         console.log('stuff sent');
         this.setState({
             percentBack: calcPercentBack
