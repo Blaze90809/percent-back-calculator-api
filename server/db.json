@@ -1,0 +1,60 @@
+{
+  "racesArray": [
+    {
+      "id": 1,
+      "raceName": "Skinny Santa Solstice",
+      "raceDate": "2016-12-17",
+      "raceDistance": 10,
+      "percentBack": 40.23
+    },
+    {
+      "id": 2,
+      "raceName": "Pre-Loppet",
+      "raceDate": "2017-01-08",
+      "raceDistance": 14,
+      "percentBack": 23.68
+    },
+    {
+      "id": 3,
+      "raceName": "Three Rivers Ski Rennet",
+      "raceDate": "2017-01-21",
+      "raceDistance": 20,
+      "percentBack": 23.21
+    },
+    {
+      "id": 4,
+      "raceName": "City of Lakes Loppet Classic",
+      "raceDate": "2017-02-04",
+      "raceDistance": 30,
+      "percentBack": 35.41
+    },
+    {
+      "id": 5,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2017-02-05",
+      "raceDistance": 30,
+      "percentBack": 21.65
+    },
+    {
+      "id": 6,
+      "raceName": "Hamsterbeiner",
+      "raceDate": "2017-02-26",
+      "raceDistance": 25,
+      "percentBack": 19.93
+    },
+    {
+      "id": 7,
+      "raceName": "Pepsi Challenge",
+      "raceDate": "2017-03-04",
+      "raceDistance": 48,
+      "percentBack": 33.98
+    },
+    {
+      "id": 40,
+      "raceName": "Winter Warm-Up",
+      "raceDate": "2017-12-23",
+      "raceDistance": "10",
+      "percentBack": 24.59853499280767
+    }
+  ]
+}
