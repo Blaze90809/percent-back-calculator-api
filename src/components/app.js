@@ -155,7 +155,7 @@ export default class App extends React.Component {
                 <form onSubmit={this.calcPercentBack}>
                     <label>Enter the ski race information.</label><br></br>
                     <label>Race Name: <input type="text" value={this.state.raceName} onChange={this.updateRaceName} /></label><br></br>
-                    <label>Race Distance: <input type="text" value={this.state.raceDistance} onChange={this.updateRaceDistance} /></label><br></br>
+                    <label>Race Distance (in kilometers): <input type="text" value={this.state.raceDistance} onChange={this.updateRaceDistance} /></label><br></br>
                     <label>Race Date: <input type="text" value={this.state.raceDate} onChange={this.updateRaceDate} /></label><br></br>
                     <br></br>
                     <label>Enter the first place finisher's time below.</label><br></br>
@@ -179,7 +179,7 @@ export default class App extends React.Component {
                         <tr>
                             <th>Race Name</th>
                             <th>Race Date</th>
-                            <th>Race Distance</th>
+                            <th>Race Distance(K)</th>
                             <th>Percent Back</th>
                         </tr>
                         {this.state.races.map(races => (
