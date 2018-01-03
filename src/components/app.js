@@ -1,4 +1,6 @@
 import React from 'react';
+import { Form, FormGroup, ControlLabel, FormControl } from 'react-bootstrap';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 
 const url = `http://localhost:3000/racesArray`
 
@@ -150,46 +152,44 @@ export default class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <h1>Percent back calculator</h1>
-                <h3>Feel the burn</h3>
+                <div className="jumbotron">
+                    <h1>Percent back calculator</h1>
+                    <h3>Feel the burn</h3>
+                </div>
                 <form onSubmit={this.calcPercentBack}>
-                    <label>Enter the ski race information.</label><br></br>
-                    <label>Race Name: <input type="text" value={this.state.raceName} onChange={this.updateRaceName} /></label><br></br>
-                    <label>Race Distance (in kilometers): <input type="text" value={this.state.raceDistance} onChange={this.updateRaceDistance} /></label><br></br>
-                    <label>Race Date: <input type="text" value={this.state.raceDate} onChange={this.updateRaceDate} /></label><br></br>
-                    <br></br>
-                    <label>Enter the first place finisher's time below.</label><br></br>
-                    <label>Hours: <input type="text" pattern="[0-9]*" ref="skierOneHours" value={this.state.skierOneHours} onChange={this.updateskierOneHours} /></label><br></br>
-                    <label>Minutes: <input type="text" pattern="[0-9]*" value={this.state.skierOneMinutes} onChange={this.updateskierOneMinutes} /></label><br></br>
-                    <label>Seconds: <input type="text" pattern="[0-9]*" value={this.state.skierOneSeconds} onChange={this.updateskierOneSeconds} /></label><br></br>
-                    <br></br>
-                    <label>Enter your time below.</label><br></br>
-                    <label>Hours: <input type="text" pattern="[0-9]*" value={this.state.youSkierHours} onChange={this.updateyourHours} /></label><br></br>
-                    <label>Minutes: <input type="text" pattern="[0-9]*" value={this.state.youSkierMinutes} onChange={this.updateyourMinutes} /> </label><br></br>
-                    <label>Seconds: <input type="text" pattern="[0-9]*" value={this.state.youSkierSeconds} onChange={this.updateyourSeconds} /> </label><br></br>
-                    <input type="submit" value="Submit" />
+                    <FormGroup>
+                        <label>Enter the ski race information.</label><br></br>
+                        <label> Race Name: <input type="text" value={this.state.raceName} onChange={this.updateRaceName} /></label>
+                        <label> Race Distance (in kilometers): <input type="text" value={this.state.raceDistance} onChange={this.updateRaceDistance} /></label>
+                        <label> Race Date (yyyy-mm-dd): <input type="text" value={this.state.raceDate} onChange={this.updateRaceDate} /></label>
+                        </FormGroup>
+                      
+                        <FormGroup>
+                        <label>Enter the first place finisher's time below.</label><br></br>
+                        <label> Hours: <input type="text" pattern="[0-9]*" ref="skierOneHours" value={this.state.skierOneHours} onChange={this.updateskierOneHours} /></label>
+                        <label> Minutes: <input type="text" pattern="[0-9]*" value={this.state.skierOneMinutes} onChange={this.updateskierOneMinutes} /></label>
+                        <label> Seconds: <input type="text" pattern="[0-9]*" value={this.state.skierOneSeconds} onChange={this.updateskierOneSeconds} /></label>
+                        </FormGroup>
+                        
+                        <FormGroup>
+                        <label>Enter your time below.</label><br></br>
+                        <label> Hours: <input type="text" pattern="[0-9]*" value={this.state.youSkierHours} onChange={this.updateyourHours} /></label>
+                        <label> Minutes: <input type="text" pattern="[0-9]*" value={this.state.youSkierMinutes} onChange={this.updateyourMinutes} /> </label>
+                        <label> Seconds: <input type="text" pattern="[0-9]*" value={this.state.youSkierSeconds} onChange={this.updateyourSeconds} /> </label><br></br>
+                        <input type="submit" value="Submit" />
+                    </FormGroup>
                 </form>
                 {/* <p>Results: </p>
                 <p>Race Name: </p> {this.state.raceName}
                 <p>Race Date: </p> {this.state.raceDate}
                 <p>Race Distance: </p> {this.state.raceDistance}
                 <p>Percent Back: </p> {this.state.percentBack} */}
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Race Name</th>
-                            <th>Race Date</th>
-                            <th>Race Distance(K)</th>
-                            <th>Percent Back</th>
-                        </tr>
-                        {this.state.races.map(races => (
-                            <tr key={races.id}>
-                                <td>{races.raceName}</td><td>{races.raceDate}</td><td>{races.raceDistance}</td><td>{races.percentBack}</td>
-                            </tr>
-                        ))}
-                    </tbody>
-
-                </table>
+                <BootstrapTable data={this.state.races} striped hover condensed>
+                    <TableHeaderColumn dataField='raceName' isKey={true}>Race Name</TableHeaderColumn>
+                    <TableHeaderColumn dataField='raceDate'>Race Date</TableHeaderColumn>
+                    <TableHeaderColumn dataField='raceDistance'>Race Distance</TableHeaderColumn>
+                    <TableHeaderColumn dataField='percentBack'>Percent Back</TableHeaderColumn>
+                </BootstrapTable>
             </div>
         );
     }
