@@ -22,7 +22,12 @@ module.exports = {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             loaders: ['react-hot-loader/webpack', 'babel-loader?presets[]=react']
-        }
+        },
+        {
+            test: /\.css$/,  
+            include: /node_modules/,  
+            loaders: ['style-loader', 'css-loader'],
+       }
         ]
     },
 /*    plugins: [
