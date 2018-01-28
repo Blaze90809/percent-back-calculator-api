@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, FormGroup, ControlLabel, FormControl } from 'react-bootstrap';
-import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css'
+import 'react-bootstrap-table/dist/react-bootstrap-table.min.css';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 
 
