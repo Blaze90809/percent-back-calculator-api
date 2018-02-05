@@ -167,6 +167,13 @@
       "raceDate": "2018-01-27",
       "raceDistance": "30",
       "percentBack": "35.09"
+    },
+    {
+      "id": 25,
+      "raceName": "City of Lakes Loppet Skate",
+      "raceDate": "2018-02-04",
+      "raceDistance": "38",
+      "percentBack": "22.09"
     }
   ]
 }
