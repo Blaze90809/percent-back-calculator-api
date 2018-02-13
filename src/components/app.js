@@ -49,7 +49,7 @@ export default class App extends React.Component {
                 });
                 console.log(this.state.races);
             })
-            .catch(error => console.log('error fetching races', error))
+            .catch(error => console.log('Error fetching races', error))
     }
 
     updateskierOneHours(event) {
@@ -182,11 +182,6 @@ export default class App extends React.Component {
                             <input type="submit" value="Submit" />
                         </FormGroup>
                     </form>
-                    {/* <p>Results: </p>
-                <p>Race Name: </p> {this.state.raceName}
-                <p>Race Date: </p> {this.state.raceDate}
-                <p>Race Distance: </p> {this.state.raceDistance}
-                <p>Percent Back: </p> {this.state.percentBack} */}
                     <BootstrapTable data={this.state.races} striped hover condensed>
                         <TableHeaderColumn dataField='raceName' isKey={true}>Race Name</TableHeaderColumn>
                         <TableHeaderColumn dataField='raceDate'>Race Date</TableHeaderColumn>
